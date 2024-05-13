@@ -1,0 +1,118 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+.parent{
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.inputDiv{
+  border: 1px solid black;
+  display: block;
+  padding: 20px 50px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px rgb(89, 87, 87);
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+.inputDiv input{
+  display: block;
+}
+
+.inputDiv input[type="submit"]{
+cursor: pointer;
+padding: 8px;
+color: white;
+background-color: rgb(7, 160, 7);
+font-weight: bold;
+border: none;
+border-radius: 4px;
+margin-top: 10px;
+}
+.defaultDiv{
+  border: 1px solid black;
+  display: block;
+  padding: 20px 50px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px rgb(89, 87, 87);
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+.defaultDiv button{
+  color: white;
+  background-color: rgb(29, 29, 29);
+  padding: 8px;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.all{
+  display: flex;
+}
+/* .cv{
+  flex: 1;
+}
+.parent{
+  flex: 1;
+} */
+.parent{
+  width: 30%;
+
+}
+.cv{
+  width: 70%;
+  padding-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cv h3{
+  background-color: rgb(3, 3, 57);
+  color: white;
+  padding: 5px 5px;
+}
+.cv h5{
+  background-color: lightgray;
+  padding: 5px;
+}
